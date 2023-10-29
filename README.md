@@ -1,2 +1,2 @@
-# 05--HTML_CSS
+# 05-HTML_CSS
 Actividades HTML y CSS
