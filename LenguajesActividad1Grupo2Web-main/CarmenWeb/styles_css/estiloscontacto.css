@@ -1,0 +1,369 @@
+ /* ELEMENTOS A APLICAR EN TODA LA PAGINA */
+*{
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    
+    background-image: url(/LenguajesActividad1Grupo2Web-main/CarmenWeb/assets/imagenes/fondo3.svg);
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+/* MENU DE NAVEGACION*/
+
+ 
+nav{
+    background-color: #06090acb;
+    width: 100%;
+    height: 60px;
+    position: fixed ;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+ .checkbtn img {
+    margin-left: 2em;
+    width: 100%;
+    cursor: pointer;
+   
+    
+    
+}
+
+nav ul{
+
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.8);
+    top: 15%;
+    margin-bottom: 10%;
+    left: -109%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 4;
+ 
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+
+nav ul li a{
+    padding: 0.25em 1.5em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #242323;
+    color: #fefffe;
+ }
+
+ #check{
+    display:none;
+ }
+
+.checkbtn{
+    width: 1em;
+    display: block;
+    
+    
+}
+ #check:checked ~ul{
+    left:0;
+ }
+
+ body{
+    margin:0%;
+    /* min-height: 100vh; */
+    padding:0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+ }   
+
+
+
+/* CABECERA DE CONTACTO */
+  
+.header-contacto{
+    display: flex;      
+    justify-content: center;
+    background-color: #2b3e43a1;
+    margin-top: 60px;
+    margin-bottom: 2vh;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    font-size: 3em;
+    color: #F2F2F2;
+    
+}
+
+/* CONTENIDO DEL TEXTO */
+
+.caja-texto{
+
+    background-color:#F2F2F2;
+    font-size: 1.5em;                  
+    margin-right:15%;
+    margin-top: 2%; 
+    margin-left:15%;     
+    padding:10px;
+       
+
+}
+
+/* FORMULARIO CONTACTO ESTRUCTURA Y CONTENIDO */
+
+.forma-caja{   
+    
+    display: flex;
+    justify-content: center;    
+    padding:2% 2%;    
+    box-shadow: 0 0 20px rgba(119, 136, 153, 25);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+    width:30%;    
+    border:2px solid;
+    overflow: hidden;
+ 
+    }
+
+form{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    border: 1px;
+    overflow: hidden;
+    width: 98%;
+    font-size: 1.5em;
+}
+
+
+.datos-contacto{
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+label{
+    color: black;
+    font-size: 2em;
+    margin-bottom: 3%;
+    font-weight: 600;    
+   
+
+}
+input, textarea{
+    
+    padding: 2% 2%;
+    border-radius:25px ;
+    margin-bottom: 6%;    
+    font-size:100% ;
+    
+    
+}
+
+
+.boton{
+    font-size: medium;
+    background-color: #8ab3bea1;
+    cursor:pointer;
+    color: rgb(21, 18, 18);
+}
+
+
+/* PIE DE PAGINA */
+
+
+ footer{
+
+    margin-top: auto;
+   
+} 
+
+
+
+.pie-pagina{
+    background-color: #B2b67E;
+
+}
+.logo{
+    display:flex;
+    align-items: center;
+    gap:15px;
+    
+}
+
+span{
+    font-size: 15px ;
+}
+
+.fb{
+    background-color: blue;
+    padding:8px;
+    border-radius:40px;
+    color:white;
+}
+.inst{
+    background-color: rgb(255, 0, 179);
+    padding:8px;
+    border-radius: 40px;
+    color:white;
+}
+.tw{
+    background-color: rgb(0,140,255);
+    padding:8px;
+    border-radius: 40px;
+    color:white;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.name{
+    font-size: 20px;
+}
+
+.derechos{
+    display:flex;
+    justify-content: space-between ;
+    padding: 10px;
+}
+
+
+/* RESPONSIVE */
+/* ------------------------------------------------------------- */
+
+@media (max-width:1300) {
+
+    .forma-caja{
+        width: 90%;
+    }
+    .container1{
+        width: 70%;
+
+    }
+       
+  
+}
+
+/* ------------------------------------------------------------- */
+    @media (max-width:700px){
+    
+    .forma-caja{
+        width: 70%;
+    }
+    }
+    header{
+        
+    font-size: 2em;
+    
+       }
+
+   .caja-texto{
+    font-size: 1.3em;
+
+   } 
+   .centrar{
+    width: 100%;
+    max-height: 30%;
+    
+    justify-content: center;        
+    margin-top:10%;
+
+}       
+/* ------------------------------------------------------------- */
+
+     @media (max-width:520px){
+
+        .header-contacto{
+            width: 100%;
+            font-size:3.2em; 
+            justify-content: center;
+        }
+        .form{
+
+            font-size:1em ;
+           
+        } 
+
+        h3{
+            font-size: 0.7em;
+            
+        }
+        
+        
+    } 
+ /* ------------------------------------------------------------- */   
+
+  @media (min-width:340px){    
+
+    nav ul li{
+        margin: 4px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+
+    section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .forma-caja{
+        width: 70%;
+    }
+
+    .centrar{
+
+        font-size: 1.1em;
+    }
+    label{
+        font-size: 0.9em;
+    }
+    input{
+        font-size: 0.7em;
+    }
+
+    p{
+        font-size: 0.9em;
+    }
+
+    h1{
+        font-size:1.5em;
+    }
+
+
+} 
+ 
