@@ -4,10 +4,11 @@
 
 
 **Actividad realizada por**
-Alejandro Aguiar Diaz
-Carmen Alvarez Montenegro Piñeiro
-Andrés Avendaño Monteagudo
-Alberto Arroyo Santofimia
+
+Alejandro Aguiar Diaz.
+Carmen Alvarez Montenegro Piñeiro.
+Andrés Avendaño Monteagudo.
+Alberto Arroyo Santofimia.
 
 
 **Enunciado**
