@@ -5,10 +5,12 @@
 
 **Actividad realizada por**
 
-Alejandro Aguiar Diaz.
-Carmen Alvarez Montenegro Piñeiro.
-Andrés Avendaño Monteagudo.
-Alberto Arroyo Santofimia.
+Actividad Realizada por:
+
+- Alejandro Aguiar Díaz. 
+- Alberto Arroyo Santofimia.
+- Andrés Avendaño Monteagudo. 
+- Carmen Álvarez -Montenegro Piñeiro.
 
 
 **Enunciado**
